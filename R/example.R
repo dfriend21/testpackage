@@ -1,6 +1,11 @@
 
 #' @name example
 #' @title example
+#' @details
+#' Here's the output of `example("path/to/file.png")` - this is what it looks
+#' like when it is manually saved to a file. See the 'Examples' section to see
+#' what it looks like when `pkgdown` makes it.
+#' ![](manual_output.png "result when saving to file system manually")
 #' @examples
 #' add_lgd <- function(){
 #'   rast <- as.raster(hcl.colors(100))
