@@ -11,14 +11,14 @@ example
 }
 \examples{
 add_lgd <- function(){
-rast <- as.raster(hcl.colors(100))
-usr <- par("usr")
-rasterImage(rast,
-            xleft = usr[2],
-            ybottom = usr[3],
-            xright = usr[2] + .2,
-            ytop = usr[4],
-            xpd = TRUE)
+  rast <- as.raster(hcl.colors(100))
+  usr <- par("usr")
+  rasterImage(rast,
+              xleft = usr[2],
+              ybottom = usr[3],
+              xright = usr[2] + .2,
+              ytop = usr[4],
+              xpd = TRUE)
 }
 
 par(mfrow = c(2,2))
